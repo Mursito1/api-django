@@ -3,8 +3,7 @@ from rest_framework import routers
 from api import views
 
 router=routers.DefaultRouter()
-router.register('profesores', views.ProfesorViewSet)
-router.register('alumnos', views.AlumnoViewSet)
+router.register('usuarios', views.ProfesorViewSet)
 
 urlpatterns=[
     path('', include(router.urls)) 
