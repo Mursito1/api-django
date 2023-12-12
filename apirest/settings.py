@@ -55,7 +55,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8100",
+    "http://localhost:8101",
 ]
 
 ROOT_URLCONF = 'apirest.urls'
